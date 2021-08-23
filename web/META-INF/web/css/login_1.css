@@ -1,0 +1,25 @@
+    /*html, body {margin: 0; height: 100%; overflow-x:  hidden}*/
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.header {
+    position: relative;
+    width: 100%;
+    padding: 15px 0 0 0;
+    background: #00539C;
+    height: 100vh;
+}
+
+.header.home {
+    margin-bottom: 45px;
+    background: linear-gradient(rgba(0, 83, 156, 1), rgba(0, 83, 156, .9), rgba(0, 83, 156, 0.7)), url(../img/fondo_habitacion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
